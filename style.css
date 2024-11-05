@@ -27,11 +27,15 @@ body {
     font-size: 24px;
     text-align: right;
     padding: 10px;
-    border: 1px solid #ccc;
+    /* border: none; */
     border-radius: 4px;
     margin-bottom: 20px;
-    background-color: white;
+    background-color: black;
+    color: white;
+    position: relative;
+    outline: none;
 }
+
 
 .buttons-1 {
     display: grid;
@@ -51,7 +55,7 @@ body {
     transition: backgroud-color 0.2s;
 }
 
-.buttons-1 #clear { 
+.buttons-1 #clear {
     color: rgba(255, 140, 0, 0.789);
 }
 
